@@ -1,13 +1,18 @@
-const showMenu = (toggleId, navId) =>{
-    const toggle = document.getElementById(toggleId),
-      nav = document.getElementById(navId)  
-    if (toggle && nav){
-        toggle.addEventListener('click', ()=>{
-            nav.classList.toggle('show') 
+const swiper = new Swiper('.swiper-container', {
 
-        } ) 
-    }  
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
 
-}
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
 
-showMenu('nav-toggle','nav__menu')
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});

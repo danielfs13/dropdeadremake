@@ -1,52 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- CSS LINK-->
-<link rel="stylesheet" href="style.css">
-
-<!-- JS LINK-->
-<script src="main.js"> </script>
-
-<!--BOX ICONS-->
-<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
-
-<title> Upgames - Estudo de ecommerce </title>
-
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DROP DEAD CLOTHING</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 
-
-<!--HEADER-->
 <body>
-    <header class="l-header">
 
-        <nav class="nav bd-grid">
-            <div>
-                <a href="#" class="nav__logo">DROP DEAD</a>
-            </div>
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#Home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#Featured" class="nav__link">Featured</a></li>
-                    <li class="nav__item"><a href="#New" class="nav__link">New</a></li>
-                    <li class="nav__item"><a href="#Suscribed" class="nav__link">Suscribed</a></li>
-                </ul>
-            </div>
+<div class="header">
+        <div id="logo">
+            <img src="logo.png">
+        </div>
 
-            <div>
-                <i class='bx bx-cart nav__cart'></i>
-                <i class='bx bx-menu nav__toggle' id="nav-toggle" ></i>
-            </div> 
-        </nav>
-    </header>
-       
-
-<main class="l-main">       
-</main>
+        <h1 class="Title">DROP DEAD CLOTHING</h1>
 
 
+        <div class="nav_menu">
+            
+            <i class='bx bxs-home home_btn' ></i>
+            <i class='bx bxs-t-shirt buy_btn' ></i>
+            <i class='bx bxs-shopping-bag shopping_btn' ></i>
+            <i class='bx bxs-envelope-open contact_btn'></i>
+
+        </div>
+</div>
+
+<div id="destaques" class="swiper-container">
+    <div class="swiper-wrapper">
+
+        <div id="destaque1" class="swiper-slide">
+            <h2>Coleção Padrão</h2>
+            <h3>R$200</h3>
+            <img src="wica.png" id="wica">
+        </div>
+
+        <div id="destaque2" class="swiper-slide">
+            <h2>Proteja-se com DD</h2>
+            <h3>R$150</h3>
+            <img src="lunar.png" id="lunar">
+        </div>
+
+    </div>    
+
+      <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+
+
+</div>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </body>
-</html>
 
+</html>
