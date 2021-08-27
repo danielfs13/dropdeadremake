@@ -3,7 +3,11 @@ margin-left: 0ex;
 font-family: 'Quicksand', sans-serif;   
 }
 body{
-    height: 100vh;
+    max-height: 200px;
+}
+
+html{
+    max-height: 200px;
 }
 
 .swiper {
