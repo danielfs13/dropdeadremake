@@ -1,7 +1,7 @@
 .header {
     position: fixed;
     display: inline;
-    width: 320px;
+    width: 100%;
     height: 40px;
     top: 0;
     z-index: 10;
@@ -52,4 +52,18 @@
 .contactForm{
     position: relative;
     margin-top: 40px;
+}
+
+.inputBox > input{
+    width: 100%;
+    border: none;   
+    border-bottom: 2px solid grey;
+    margin-bottom: 20px;
+}
+
+.inputBox > textarea{
+    resize: none;
+    width: 100%;
+    height: 40vh;
+    margin-top: 20px;
 }
