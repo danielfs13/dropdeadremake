@@ -1,14 +1,7 @@
-body{
-position: absolute;
- width: 100%;
- height: 100%;
- align-content: center;   
-}
-
 .header {
     position: fixed;
-    display: inline;
-    width: 100%;
+    display: block;
+    width: 320px;
     height: 40px;
     top: 0;
     z-index: 10;
@@ -104,31 +97,117 @@ position: absolute;
     
                 }
 
-.contactForm{
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-    width: 95%;
+/* CAMISETAS */
+
+#listacamisetas{
+position: absolute;
+margin-top: 40px;
+margin-left: 20px;
+width: 100%;
+height:350px;
 }
 
-.contactForm  #enviar{
-    position: relative;
-    left:5px;
+/* CAMISETA 1 */
+
+#camiseta1{
+position: absolute;
 }
 
-.inputBox > input{
-    width: 100%;
-    border: none;   
-    border-bottom: 2px solid grey;
-    margin-bottom: 20px;
-}
+        #camisetabroken{
+            left: 15px;
+            display: block;
+            position: relative;
+            width: 250px;
+            top: 50px;
+        }
 
-.inputBox > textarea{
-    position: relative;
-    left: 5px;
-    resize: none;
-    width: 100%;
-    height: 40vh;
-    margin-top: 20px;
-}
+        #camiseta1 > h3{
+            position: relative;
+            top: 50px;
+            background-color: transparent;
+        }
+
+        #camiseta1 > span{
+            position: relative;
+            left: 200px;
+            top: 13px;
+        }
+
+/* CAMISETA 2 */
+
+#camiseta2{
+    position: absolute;
+    }
+    
+        #camisetadd{
+            left: 15px;
+            display: block;
+            position: relative;
+            width: 250px;
+            top: 400px;
+        }
+        
+        #camiseta2 > h3{
+            position: relative;
+            top: 400px;
+            background-color: transparent;
+        }
+        
+        #camiseta2 > span{
+            position: relative;
+            left: 215px;
+            top: 365px;
+            z-index: 10;
+        }
+
+/* CAMISETA 3 */
+
+#camiseta3{
+    position: absolute;
+    }
+    
+        #camisetaremote{
+            left: 15px;
+            display: block;
+            position: relative;
+            width: 250px;
+            top: 650px;
+        }
+        
+        #camiseta3 > h3{
+            position: relative;
+            top: 600px;
+            background-color: transparent;
+        }
+        
+        #camiseta3 > span{
+            position: relative;
+            left: 200px;
+            top:565px;
+        }
+
+/* CAMISETA 4 */
+
+#camiseta4{
+    position: absolute;
+    }
+    
+        #camisetapanther{
+            left: 15px;
+            display: block;
+            position: relative;
+            width: 250px;
+            top: 1050px;
+        }
+        
+        #camiseta4 > h3{
+            position: relative;
+            top: 1050px;
+            background-color: transparent;
+        }
+        
+        #camiseta4 > span{
+            position: relative;
+            left: 200px;
+            top: 1015px;
+        }

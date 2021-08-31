@@ -7,7 +7,14 @@ function myFunction() {
   }
 }
 
+/* https://codepen.io/LOTUSMS/pen/VebWbb */
+
+$(document).on('click',function(){
+  $('.collapse').toggleClass('in');
+})
 const swiper = new Swiper('.swiper-container', {
+  direction: 'horizontal',
+
 
   // And if we need scrollbar
   scrollbar: {
