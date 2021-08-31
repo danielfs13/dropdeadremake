@@ -7,8 +7,8 @@ position: absolute;
 
 .header {
     position: fixed;
-    display: inline;
-    width: 100%;
+    display: block;
+    width: 320px;
     height: 40px;
     top: 0;
     z-index: 10;
@@ -40,70 +40,76 @@ position: absolute;
             letter-spacing: 3px;
         }
     
-        .header .nav_menu {
-            position: relative;
-            float: right;
-            right: 30px;
-            margin-top: 20px;
-            bottom: 9px;
-            }
-    
-                .buy_btn {
-                    position: relative;
-                    margin-right: 10px;
-                    right: 7.5px;
-    
+            .header .nav_menu {
+                position: relative;
+                float: right;
+                right: 30px;
+                margin-top: 20px;
+                bottom: 9px;
                 }
-    
-                    #clothes{
-                        bottom: 5px;
-                        right: 60px;
+        
+                    .buy_btn {
                         position: relative;
-                        display: inline;
-                        text-decoration: none;
-                        width: 15px;
-                        justify-content: center;
-                        background-color: Transparent;
-                        border:none;
+                        margin-right: 10px;
+                        right: 7.5px;
+        
                     }
-    
-                    #clothes:active{
-                        border-style: none;
-                        background: none;
-                        background-color: transparent;
+        
+                        #clothes{
+                            bottom: 5px;
+                            right: 60px;
+                            position: relative;
+                            display: inline;
+                            text-decoration: none;
+                            width: 15px;
+                            justify-content: center;
+                            background-color: Transparent;
+                            border:none;
+                        }
+        
+                        #clothes:active{
+                            border-style: none;
+                            background: none;
+                            background-color: transparent;
+                        }
+        
+                        #clotheslist {
+                            right:0;
+                            display: none;
+                            position: absolute;
+                            background-color: #f9f9f9;
+                            min-width: 160px;
+                            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                            z-index: 1;
+                        }
+        
+                        #clotheslist a {
+                            color: black;
+                            padding: 12px 16px;
+                            text-decoration: none;
+                            display: block;
+                        }
+        
+                    .shopping_btn{
+                        top: 13px;
+                        position: relative;
+                        margin-right: 10px;
+                        left:45px;
                     }
-    
-                    #clotheslist {
-                        right:0;
-                        display: none;
-                        position: absolute;
-                        background-color: #f9f9f9;
-                        min-width: 160px;
-                        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-                        z-index: 1;
-                    }
-    
-                    #clotheslist a {
-                        color: black;
-                        padding: 12px 16px;
-                        text-decoration: none;
-                        display: block;
-                      }
-    
-                .shopping_btn{
-                    top: 13px;
-                    position: relative;
-                    margin-right: 10px;
-                    left:45px;
-                }
-                
-                .contact_btn{
-                    position: relative;
-                    left:55px;
-                    top:13px;
-    
-                }
 
+                    .contact_btn{
+                        position: absolute;
+                        left:0px;
+                        top:0px;
+        
+                    }
+
+                        #contact{
+                        position: relative;
+                        left: 60px;
+                        top:14px;
+                            
+                        }
 .contactForm{
     position: relative;
     justify-content: center;
